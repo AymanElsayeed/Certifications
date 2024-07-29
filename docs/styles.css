@@ -1,0 +1,47 @@
+.certification {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cert-preview {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border: none;
+}
+
+.cert-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cert-info a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.cert-info a:hover {
+    text-decoration: underline;
+}
+
+.cert-info p {
+    margin: 0;
+    color: #555;
+}
+
+/* Add this to your styles.css file */
+h1 {
+    text-align: center;
+}
+
+/* Add this to your styles.css file */
+#searchInput {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+}
